@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url('bg1.jpeg');
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #2c3e50;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  list-style: none;
+  padding: 0;
+}
+
+nav a {
+  color: rgb(255, 252, 252);
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+form input, form button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #f5f1f1;
+  padding: 10px;
+  text-align: center;
+}
+
+.img-utama, .img-profil {
+  max-width: 300px;
+  margin: 10px 0;
+  display: block;
+}
+
+.galeri img {
+  width: 150px;
+  margin: 5px;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}

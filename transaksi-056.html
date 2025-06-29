@@ -1,0 +1,58 @@
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <title>Transaksi - Sendav Movie</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <font face="stencil" size="7">Sendav Movie</font>
+    <nav>
+      <ul>
+        <li><a href="home-056.html">Beranda</a></li>
+        <li><a href="profil-056.html">Profil</a></li>
+        <li><a href="transaksi-056.html">Transaksi</a></li>
+        <li><a href="login-056.html">Login</a></li>
+        <li><a href="lokasi-056.html">Lokasi</a></li>
+        <li><a href="galeriy_movie-056.html">Galeri Movie</a></li>
+        <li><a href="history-056.html">history</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Transaksi Nonton Movie</h2>
+    <form onsubmit="tambahTransaksi(event)">
+      <input type="text" id="nama" placeholder="Nama Penonton" required>
+      <input type="text" id="film" placeholder="Judul Film" required>
+      <input type="number" id="jumlah" placeholder="Jumlah Tiket" required>
+      <button type="submit">Tambah</button>
+    </form>
+
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Nama</th>
+          <th>Film</th>
+          <th>Jumlah Tiket</th>
+          <th>Total Harga</th>
+        </tr>
+      </thead>
+      <tbody id="data-transaksi"></tbody>
+    </table>
+
+    <div>
+      <img src="bolehkah aku menagis.jpeg" alt="Film 1" width="150">
+      <img src="saptu bersama bapak.jpeg" alt="Film 2" width="150">
+      <img src="komang.jpeg" alt="Film 3" width="150">
+      <img src="kang mak.jpeg" alt="Film 4" width="150">
+      <img src="galaksi.jpeg" alt="Film 5" width="150">
+      <img src="plankton the movie.jpeg" alt="Film 5" width="150">
+      <img src="pinjam 100.jpeg" alt="Film 5" width="150">
+      <img src="pixels.jpeg" alt="Film 5" width="150">
+    </div>
+  </main>
+
+  <script src="transaksi.js"></script>
+</body>
+</html>
